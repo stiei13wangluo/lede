@@ -134,7 +134,7 @@ jobs:
         if: github.event == 'release'
         uses: svenstaro/upload-release-action@v2
         with:
-          repo_token: ${{ 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 }}
+          repo_token: ${{ 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 }}
           file: ./artifact/firmware/*
           tag: ${{ github.ref }}
           file_glob: true
